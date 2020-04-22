@@ -7,10 +7,11 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
+    binding.pry
     @brand = brand
-      if !BRANDS.include?(@brand)
-    BRANDS << brand 
-      end
+    #   if !BRANDS.include?(@brand)
+    # BRANDS << brand 
+    #   end
   end
 
   def cobble
